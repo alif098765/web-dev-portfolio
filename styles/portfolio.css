@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+   
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .text-primary{
+    color: #FD6E0A;
+  }
+  .dark-2{
+    color: #474747;
+    font-size: 20px;
+  }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 100px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav li {
+    list-style: none;
+    margin-right: 40px;
+}
+.btn{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+.banner-greetings{
+font-size: 45px;
+font-weight: 600px;
+
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.dark-1{
+    color: #181818;
+}
+.banner-paragraph{
+    font-size: 18px;
+}
+.dark-3{
+    color: #757575;
+}
+.banner-pro-pic{
+    width: 580px;
+    height: 675px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 230px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.header{
+    background-image: url("../images/developer.png"), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    
+}
+h4,h1,p,button{
+    margin: 2;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818
+}
+.section-description{
+    font-size: 18px;
+    font-weight: ;
+    color: #757575;
+}
+.secondery-bg{
+    background-color: #FFF8F3;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    
+    text-align: center;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.item-description{
+    font-weight: bold;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.text-center{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px;color: black;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
