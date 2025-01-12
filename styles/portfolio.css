@@ -133,3 +133,15 @@ main section{
     margin-top: 130px;
     margin-bottom: 130px;
 }
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-description,.h5experience-subtitle{
+    color: #757575;
+}
+.h5experience-subtitle{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
